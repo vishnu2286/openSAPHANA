@@ -22,6 +22,11 @@ modules:
           url: '${default-url}'
     requires:
       - name: openSAPHANA-hdi-container
+
+  - name: web
+    type: html5
+    path: web
+
 resources:
   - name: openSAPHANA-hdi-container
     properties:
